@@ -37,7 +37,7 @@ to store user data such as id, email and password, and another with the name of 
 
 - Login:
 
-![github-small](/Word-Phone-List/imgs/projeto-login.PNG)
+![github-small](/imgs/projeto-login.PNG)
     - On the Login page, it is checked if the user exists in our database, if it exists,
       it is redirected to a list, if it does not exist, it is redirected to an ERROR screen
     - User input for email is forced to lowercase.
@@ -45,7 +45,7 @@ to store user data such as id, email and password, and another with the name of 
 
 - Register:
 
-![github-small](/Word-Phone-List/imgs/projeto-register.PNG)
+![github-small](/imgs/projeto-register.PNG)
     - In register, it is also checked if the user already exists in our database, if it exists, it is redirected to an error message, otherwise it is redirected to a list
     - In the email input, we force the characters to lowercase.
     - In the input for name, we force the characters to uppercase
@@ -55,7 +55,7 @@ to store user data such as id, email and password, and another with the name of 
 
 - Search:
 
-![github-small](/Word-Phone-List/imgs/projeto-busca.PNG)
+![github-small](/imgs/projeto-busca.PNG)
     - In the search field, the full name of the person the user is looking for is requested.
     - Check if the user exists in our database
     - If it exists, it is redirected to a list.
@@ -63,5 +63,5 @@ to store user data such as id, email and password, and another with the name of 
 
 - List:
 
-![github-small](/Word-Phone-List/imgs/projeto-list.PNG)
+![github-small](/imgs/projeto-list.PNG)
     - A table is shown in the list, this table contains the number and name of the person being searched for!
