@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/static/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/static/logo.ico" type="image/x-icon">
+    <title>W.P.L</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LH0NCLG7WM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LH0NCLG7WM');
+
+        function blink()
+        {
+            let img = document.querySelector('#image');
+            if (img.style.visibility == 'hidden')
+            {
+                img.style.visibility = 'visible';
+            }
+            else
+            {
+                img.style.visibility = 'hidden';
+            }
+        }
+        window.setInterval(blink, 500);
+    </script>
+
+</head>
+
+<body>
+    {% block body %} {% endblock %}
+</body>
+</html>

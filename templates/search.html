@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <section class="area-login">
+        <div class="area-search">
+            <h1 class="titulo">Search</h1>
+            <div>
+                <img id="image" src="/static/logo.ico" alt="Logo">
+            </div>
+            <form action="/list" method="post" autocomplete="off">
+                <div class="search-box">
+                    <input type="text" class="search-text" name="searchname" placeholder="Full name of the person you are looking for" autofocus>
+                    <input class="search-btn" type="submit" value="Search">
+                </div>
+            </form>
+            <p><a class="logs" href="/logout">Log Out</a></p>
+            <footer>
+                <a class="copyright" href="https://www.linkedin.com/in/paulo-j%C3%BAnior-b1bb92243/"">
+                    <p id="copy"> PauloJunior &copy; 2022</p>
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endblock %}

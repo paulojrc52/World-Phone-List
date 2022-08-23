@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <section class="area-login">
+        <div class="register">
+
+            <h1>Phone List</h1>
+
+            <div>
+                <img id="image" src="/static/logo.ico" alt="Logo">
+            </div>
+            <div>
+                <table>
+                    <!--table header-->
+                    <thead>
+                        <tr>
+                            <th colspan="3">Contact</th>
+                        </tr>
+                    </thead>
+
+                    <!--table body-->
+                    <tbody>
+                        <!--one line-->
+                        <tr>
+                            <td rowspan="1">Name</td>
+                            <td rowspan="1">Number</td>
+                        </tr>
+
+                        <!--two line-->
+                        <tr>
+                            <td rowspan="2">{{ name }}</td>
+                            <td rowspan="2">{{ number }}</td>
+                        </tr>
+                    </tbody>
+
+
+                </table>
+            </div>
+
+            <p><a class="logs" href="/search">Come Back</a></p>
+            <p><a class="logs" href="/logout">Log Out</a></p>
+            <footer>
+                <a class="copyright" href="https://www.linkedin.com/in/paulo-j%C3%BAnior-b1bb92243/"">
+                    <p id="copy">PauloJunior &copy; 2022</p>
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endblock %}
