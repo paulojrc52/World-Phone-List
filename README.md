@@ -46,7 +46,7 @@ to store user data such as id, email and password, and another with the name of 
 - Register:
 
 ![github-small](/imgs/projeto-register.PNG)
-    - In register, it is also checked if the user already exists in our database, if it exists, it is redirected to an error message, otherwise it is redirected to a list
+    - In register, it is also checked if the user already exists in our database, if it not exists, it is redirected to an error message, otherwise it is redirected to a list
     - In the email input, we force the characters to lowercase.
     - In the input for name, we force the characters to uppercase
     - User's full name is required for registration
