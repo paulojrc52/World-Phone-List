@@ -1,5 +1,7 @@
 # WORLD PHONE LIST
 #### Video Demo:  [<https://youtu.be/GJtBWlH8cro>]
+![WordPhoneList](https://user-images.githubusercontent.com/100033559/216462577-14c06db9-9fef-4e3e-b47e-238d4663faf0.gif)
+
 #### Description:
 
  For this project, I used:
