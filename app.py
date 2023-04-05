@@ -17,7 +17,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # Database
-db = SQL("sqlite:///phonebook.db")
+db = SQL("sqlite://phonebook.db")
 
 # Initial Route
 @app.route("/")
