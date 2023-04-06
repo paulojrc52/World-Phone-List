@@ -25,7 +25,7 @@ if they are already registered in the app.
 For this, the application checks if the name exists in our database, if it exists, the application returns a list,
 with the name and phone number of the person sought.
 
-To access the search field, the person must first login, if they do not have an account,
+To access the search field, the person must first login, if they do not have an account
 they must first register, with full name, e-mail, telephone number and password.
 
 If the email already exists in our database, it will return an error to the user, stating that the user's email already exists...
